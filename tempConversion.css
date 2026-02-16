@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    width: 200px;
+    margin: auto;
+    font-size: 36px;
+    color: #22e4f1;
+}
+
+.container {
+    margin: 20px;
+}
+
+.inputText {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+
+.selectConversion {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+}
+
+.submitButton {
+    padding: 12px;
+    background-color: #ff0000;
+    color: #000000;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #cc0202;
+    transition: background-color 0.5s
+}
+
+.outputText {
+    font-style: bold;
+    font-size: 18px;
+    color: #000000;
+}
