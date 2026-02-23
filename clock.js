@@ -13,6 +13,10 @@ function updateClock() {
         newHours = 12;
         isAM = true;
     }
+    else if (hours == 12) {
+        newHours = 12;
+        isAM = false;
+    }
     else if (hours >= 13) {
         newHours = hours - 12;
         isAM = false;
