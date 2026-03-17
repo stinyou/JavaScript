@@ -1,0 +1,46 @@
+
+.container {
+    width: 200px;
+    display: inline-block;
+}
+
+.display {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 30px;
+    line-height: 40px;
+    background-color: #000000bb;
+    color: #ffffffff;
+    padding: 5px 10px;
+}
+
+.button-container {
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 6px;
+    background-color: #000000ff;
+    justify-content: center;
+    padding: 6px;
+}
+
+button {
+    font-family: monospace;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    box-shadow: 1px;
+}
+
+.operation, .clear {
+    background-color: #ff9102ff;
+    color: white;
+}
+
+.number, .dot, .equals {
+    background-color: #4d4c4cbb;
+    color: white;
+}
